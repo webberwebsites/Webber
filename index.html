@@ -34,7 +34,12 @@
 </head>
 
 <body id="page-top" class="index">
+<div class="page-loader">
+		<div class="loader-in">Loading...</div>
+		<div class="loader-out">Loading...</div>
+		
 
+	</div>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -456,7 +461,24 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+<script>
+    $(window).load(function() {
+		$(".page-loader div").delay(0).fadeOut("fast");
+		$(".page-loader").delay(250).fadeOut("fast");
 
+		mediumResize();
+	});
+	$(window).on('resize', function() {
+		mediumResize();
+	});
+	$(document).ready(function(){
+
+		$('a[data-fluidbox]').colorbox({
+			width: '86%',
+			height: '86%',
+			close: '',
+		});
+</script>
 </body>
 
 </html>
