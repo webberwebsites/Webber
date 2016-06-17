@@ -27,8 +27,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   margin: 0 auto;
   background-color: #c1272d;
   opacity: 0.6;
-  background-image:url(../img/logos/webber_logo.png);
-  background-position:center;
   position: absolute;
   top: 50%;
   left: 50%;
