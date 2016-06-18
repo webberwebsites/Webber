@@ -42,7 +42,7 @@ max-width:400px;
   0%, 50% {
   transform: scale(0.0);
   -webkit-transform: scale(0.0);
-  } 100% {
+  } 50% {
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
   
