@@ -16,7 +16,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   z-index: 9999;
   top: 0;
   left: 0;
- 
   right: 0;
   bottom: 0;
 }
@@ -33,7 +32,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
  background:url(../img/logos/webber_logo.png) center no-repeat ;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
-  text-indent: -9999em;
 }
 @-webkit-keyframes bounce {
   0%, 100% { -webkit-transform: scale(0.0) }
