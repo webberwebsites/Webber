@@ -22,7 +22,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   opacity: 0.6;
   display:block;
    background-color:transparent;
-
+position:absolute;
   background:url(../img/logos/webber_logo.png) no-repeat -9999px -9999px;;
   background-size:cover;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
