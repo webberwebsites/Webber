@@ -31,7 +31,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   position: absolute;
   top: 50%;
   left: 50%;
- background-image:url(../img/logos/webber_logo.png);
+ background:url(../img/logos/webber_logo.png);
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
   text-indent: -9999em;
