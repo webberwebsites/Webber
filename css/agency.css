@@ -28,7 +28,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   background-color:transparent;
   position: absolute;
   top: 50%;
-  left: 50%;
  background:url(../img/logos/webber_logo.png) center no-repeat ;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
