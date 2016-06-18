@@ -24,14 +24,13 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
 .loader-out {
   width: 240px;
   height:140px;
-  border-radius: 50%;
   margin: 0 auto;
   background-color: #FED136;
   opacity: 0.6;
   position: absolute;
   top: 50%;
   left: 50%;
- background:url(../img/logos/webber_logo.png);
+ background:url(../img/logos/webber_logo.png) center no-repeat cover;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
   text-indent: -9999em;
