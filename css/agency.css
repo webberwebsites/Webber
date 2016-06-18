@@ -20,27 +20,28 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   bottom: 0;
 }
 .loader-in{
-width: 400px;
+width: 100%;
+max-width:400px;
   height:100%;
   margin: 0 auto;
   opacity: 0.6;
   display:block;
-  margin-left:50%;
+  left:50%;
   background-color:transparent;
   position: absolute;
- background:url(../img/logos/webber_logo.svg)center  no-repeat ;
+ background:url(../img/logos/webber_logo.png)center  no-repeat ;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
 }
 @-webkit-keyframes bounce {
-  25%, 100% { -webkit-transform: scale(5.0) }
+  0%, 100% { -webkit-transform: scale(0.0) }
   50% { -webkit-transform: scale(1.0) }
 }
 
 @keyframes bounce {
-  25%, 100% {
-  transform: scale(5.0);
-  -webkit-transform: scale(5.0);
+  0%, 100% {
+  transform: scale(0.0);
+  -webkit-transform: scale(0.0);
   } 50% {
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
