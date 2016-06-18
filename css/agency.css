@@ -21,7 +21,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   bottom: 0;
 }
 .loader-out {
-  width: 240px;
+  width: 100%;
   height:100%;
   margin: 0 auto;
   opacity: 0.6;
@@ -31,6 +31,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   top: 50%;
   left: 50%;
  background:url(../img/logos/webber_logo.png) center no-repeat ;
+ background-size:50%;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
   text-indent: -9999em;
