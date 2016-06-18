@@ -25,6 +25,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   height:140px;
   margin: 0 auto;
   opacity: 0.6;
+  display:block;
   position: absolute;
   top: 50%;
   left: 50%;
