@@ -22,7 +22,8 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
 }
 .loader-in,
 .loader-out {
-  width: 140px;
+  width: 240px;
+  height:140px;
   border-radius: 50%;
   margin: 0 auto;
   background-color: #FED136;
