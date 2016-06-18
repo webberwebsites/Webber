@@ -28,15 +28,10 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   position: absolute;
   top: 50%;
   left: 50%;
- background:url(../img/logos/webber_logo.png) center no-repeat cover;
+ background:url(../img/logos/webber_logo.png) center no-repeat ;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
   text-indent: -9999em;
-}
-.loader-out {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-
 }
 @-webkit-keyframes bounce {
   0%, 100% { -webkit-transform: scale(0.0) }
