@@ -19,9 +19,8 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   right: 0;
   bottom: 0;
 }
-.loader-in,
-.loader-out {
-  width: 400px;
+.loader-in{
+width: 400px;
   height:100%;
   margin: 0 auto;
   opacity: 0.6;
@@ -32,10 +31,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
  background:url(../img/logos/webber_logo.svg)  no-repeat ;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
-}
-.loader-out {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
 }
 @-webkit-keyframes bounce {
   0%, 100% { -webkit-transform: scale(0.0) }
