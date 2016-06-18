@@ -28,25 +28,21 @@ width: 400px;
   background-color:transparent;
   position: absolute;
  background:url(../img/logos/webber_logo.svg)center  no-repeat ;
-  -webkit-animation: bounce 2.0s infinite ease-in;
-  animation: bounce 2.0s infinite ease-in;
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
 }
 @-webkit-keyframes bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(5.0) }
-   75% { -webkit-transform: scale(1.0) }
+  0%, 100% { -webkit-transform: scale(5.0) }
+  50% { -webkit-transform: scale(1.0) }
 }
 
 @keyframes bounce {
   0%, 100% {
-  transform: scale(0.0);
-  -webkit-transform: scale(0.0);
-  } 50% {
   transform: scale(5.0);
   -webkit-transform: scale(5.0);
-  
-  }
-  75% {
+  } 50% {
   transform: scale(1.0);
   -webkit-transform: scale(1.0);
-}
+  
+  }
+
