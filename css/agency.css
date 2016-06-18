@@ -20,7 +20,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   right: 0;
   bottom: 0;
 }
-.loader-in,
 .loader-out {
   width: 240px;
   height:140px;
@@ -38,7 +37,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
 .loader-out {
   -webkit-animation-delay: -1.0s;
   animation-delay: -1.0s;
-   background-image:url(../img/logos/webber_logo.png);
 
 }
 @-webkit-keyframes bounce {
