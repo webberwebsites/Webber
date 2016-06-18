@@ -21,7 +21,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   bottom: 0;
 }
 .loader-out {
-  width: 100%;
+  width: 400px;
   height:100%;
   margin: 0 auto;
   opacity: 0.6;
