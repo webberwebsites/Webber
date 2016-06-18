@@ -27,10 +27,9 @@ width: 400px;
   display:block;
   background-color:transparent;
   position: absolute;
-  top: 50%;
- background:url(../img/logos/webber_logo.svg)  no-repeat ;
-  -webkit-animation: bounce 2.0s infinite ease-in-out;
-  animation: bounce 2.0s infinite ease-in-out;
+ background:url(../img/logos/webber_logo.svg)center  no-repeat ;
+  -webkit-animation: bounce 2.0s infinite ease-in;
+  animation: bounce 2.0s infinite ease-in;
 }
 @-webkit-keyframes bounce {
   0%, 100% { -webkit-transform: scale(0.0) }
