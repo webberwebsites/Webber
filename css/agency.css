@@ -20,7 +20,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   bottom: 0;
 }
 .loader-in{
-width: 500px;
+width: 100%;
    height:100%;
   margin: 0 auto;
   opacity: 0.6;
