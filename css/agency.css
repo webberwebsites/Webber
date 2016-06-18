@@ -25,21 +25,4 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
 position:absolute;
   background:url(../img/logos/webber_logo.png) no-repeat -9999px -9999px;;
   background-size:cover;
-  -webkit-animation: bounce 2.0s infinite ease-in-out;
-  animation: bounce 2.0s infinite ease-in-out;
 }
-@-webkit-keyframes bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes bounce {
-  0%, 100% {
-  transform: scale(0.0);
-  -webkit-transform: scale(0.0);
-  } 50% {
-  transform: scale(1.0);
-  -webkit-transform: scale(1.0);
-  
-  }
-
