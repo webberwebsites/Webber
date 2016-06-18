@@ -27,7 +27,8 @@ width: 500px;
   display:block;
    background-color:transparent;
   position: absolute;
- background:url(../img/logos/webber_logo.svg)center  no-repeat ;
+  margin-left:10rem;
+ background:url(../img/logos/webber_logo.png)  no-repeat ;
   -webkit-animation: bounce 2.0s infinite ease-in-out;
   animation: bounce 2.0s infinite ease-in-out;
 }
