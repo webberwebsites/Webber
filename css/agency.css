@@ -106,7 +106,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
     -webkit-transform: scale(1);
   }
 }
-@media (min-width: 414px)
+@media (max-width: 414px)
 header .intro-text .intro-heading {
     font-family: Montserrat,"Bazar",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
