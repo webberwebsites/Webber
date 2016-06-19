@@ -20,7 +20,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 500px;
+  width: 100%;
   height: 85px;
   margin-top: -42px;
   margin-left: -32px;
@@ -47,7 +47,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   text-align: center;
 }
 .preloader img {
-    width:500px;
+    width:100%;
     
 }
 .preloader .double_bounce1, .preloader .double_bounce2 {
