@@ -24,8 +24,6 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   height: 220px;
   margin-top: -42px;
   margin-left: -32px;
-  background:url(../img/logos/webber_logo.png) center no-repeat;
-  background-size:cover;
   z-index: 100;
 }
 .preloader p {
@@ -46,10 +44,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   width: 100%;
   text-align: center;
 }
-.preloader img {
-    width:100%;
-    
-}
+
 .preloader .double_bounce1, .preloader .double_bounce2 {
   width: 140px;
   height: 140px;
