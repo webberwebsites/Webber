@@ -47,8 +47,8 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   text-align: center;
 }
 .preloader img {
-    width:100%
-    height:100%;
+    width:500px;
+    
 }
 .preloader .double_bounce1, .preloader .double_bounce2 {
   width: 140px;
