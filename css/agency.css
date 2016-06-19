@@ -16,16 +16,80 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
   position:fixed;
 
 }
-.loader-in{
-width:500px;
-height:100%;
-top:50%;
-left:50%;
-  margin: 0 auto;
+.preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 65px;
+  height: 85px;
+  margin-top: -42px;
+  margin-left: -32px;
+  background:url(../img/logos/webber_logo.png);
+  z-index: 100;
+}
+.preloader p {
+  color: #fff;
+  position: absolute;
+  font-family: Arial;
+  text-align: center;
+  font-size: 10px;
+  font-style: italic;
+  position: absolute;
+  bottom: 0px;
+  color: #363636;
+  text-transform: uppercase;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+}
+.preloader .double_bounce1, .preloader .double_bounce2 {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #fff;
   opacity: 0.6;
-  display:block;
-   background-color:transparent;
-position:absolute;
-  background:url(../img/logos/webber_logo.png) no-repeat -9999px -9999px;;
-  background-size:cover;
+  position: absolute;
+  top: -29px;
+  left: -38px;
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
+}
+.preloader .double_bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+.preloader.invert .one {
+  background-color: #fff;
+}
+.preloader.invert .two, .preloader.invert .three {
+  background-color: #f1f1f1;
+}
+.preloader.invert .double_bounce1,
+.preloader.invert .double_bounce2 {
+  background-color: #0063a1;
+}
+.preloader.invert p {
+  color: #fff;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: scale(0.3);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
 }
