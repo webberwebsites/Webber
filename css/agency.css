@@ -106,7 +106,7 @@ body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Aria
     -webkit-transform: scale(1);
   }
 }
-@media (min-width:414px)
+@media (min-width: 414px)
 {
    .intro-heading{
        font-size:40px;
